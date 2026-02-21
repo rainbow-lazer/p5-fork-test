@@ -1,0 +1,14 @@
+{
+  "name": "p5-codespaces",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "vite": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "lint": "eslint .",
+    "format": "prettier . --write"
+  }
+}
